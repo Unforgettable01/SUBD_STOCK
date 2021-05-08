@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockView", "SUBD_STOCK\Sto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockDatabaseImplement", "StockDatabaseImplement\StockDatabaseImplement.csproj", "{5EF19295-D5E1-4C34-93DB-5EC239BEAEF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockBusinessLogic", "StockBusinessLogic\StockBusinessLogic.csproj", "{8D0E9EC3-8B62-4802-99A0-5316E8849FDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5EF19295-D5E1-4C34-93DB-5EC239BEAEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF19295-D5E1-4C34-93DB-5EC239BEAEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF19295-D5E1-4C34-93DB-5EC239BEAEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0E9EC3-8B62-4802-99A0-5316E8849FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0E9EC3-8B62-4802-99A0-5316E8849FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0E9EC3-8B62-4802-99A0-5316E8849FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0E9EC3-8B62-4802-99A0-5316E8849FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
