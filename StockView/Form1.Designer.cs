@@ -1,5 +1,5 @@
 ﻿
-namespace SUBD_STOCK
+namespace StockView
 {
     partial class Form1
     {

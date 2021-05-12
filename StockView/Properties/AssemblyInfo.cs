@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("SUBD_STOCK")]
+[assembly: AssemblyTitle("StockView")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SUBD_STOCK")]
+[assembly: AssemblyProduct("StockView")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("2009b914-e4da-45cb-8064-224cf6c88c46")]
+[assembly: Guid("100c18bf-740b-4f91-8563-fdaa4796c3a7")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
