@@ -27,11 +27,12 @@ namespace StockDatabaseImplement
         {
             if (!optionsBuilder.IsConfigured)
             {
+#pragma warning disable CS1030 // Директива #warning
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseNpgsql("Host=192.168.0.197;Port=5432;Database=stock;Username=postgres;Password=0000");
+#pragma warning restore CS1030 // Директива #warning
             }
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<НакладнаяПроданнойПродукции>(entity =>
@@ -53,8 +54,7 @@ namespace StockDatabaseImplement
 
                 entity.Property(e => e.Покупательid).HasComment("id покупателя");
 
-                entity.Property(e => e.Сотрудникid).HasComment(@"id сотрудника
-");
+                entity.Property(e => e.Сотрудникid).HasComment(@"id сотрудника");
 
                 entity.Property(e => e.Телефон).HasComment("Номер телефона для связи с покупателем");
 
@@ -237,7 +237,6 @@ namespace StockDatabaseImplement
 
             OnModelCreatingPartial(modelBuilder);
         }
-
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

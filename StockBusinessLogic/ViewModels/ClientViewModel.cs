@@ -16,6 +16,6 @@ namespace StockBusinessLogic.ViewModels
         public string FIO { get; set; }
         [DataMember]
         [DisplayName("Телефон")]
-        public string Telephone { get; set; }
+        public int Telephone { get; set; }
     }
 }

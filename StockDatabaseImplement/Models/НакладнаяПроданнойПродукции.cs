@@ -10,7 +10,6 @@ namespace StockDatabaseImplement
         public int? Телефон { get; set; }
         public int Покупательid { get; set; }
         public int Сотрудникid { get; set; }
-
         public virtual Покупатель Покупатель { get; set; }
         public virtual Сотрудник Сотрудник { get; set; }
     }
